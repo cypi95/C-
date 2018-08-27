@@ -1,0 +1,14 @@
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\bin\Debug\Projekt_Aplikacja_Odtwarzacz.exe.config
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\bin\Debug\Projekt_Aplikacja_Odtwarzacz.exe
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\bin\Debug\Projekt_Aplikacja_Odtwarzacz.pdb
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.Properties.Resources.resources
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.csproj.GenerateResource.cache
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.csproj.CoreCompileInputs.cache
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.exe
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.pdb
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.LoginRegister.resources
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.Admin.resources
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.User.resources
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.csprojAssemblyReference.cache
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\bin\Debug\NAudio.dll
+C:\Users\Cyprian\source\repos\Projekt_Aplikacja_Odtwarzacz\Projekt_Aplikacja_Odtwarzacz\obj\Debug\Projekt_Aplikacja_Odtwarzacz.csproj.CopyComplete
