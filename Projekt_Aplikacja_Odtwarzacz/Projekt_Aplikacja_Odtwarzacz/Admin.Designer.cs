@@ -32,7 +32,19 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.Zatwierdz_usuwanie_konta = new System.Windows.Forms.Button();
             this.Zatwierdz_dodawanie_konta = new System.Windows.Forms.Button();
+            this.Zatwierdz_zmiane_loginu = new System.Windows.Forms.Button();
+            this.Zatwierdz_zmiane_hasla = new System.Windows.Forms.Button();
+            this.Zatwierdz_dodawanie_wykonawcy = new System.Windows.Forms.Button();
+            this.Zatwierdz_usuwanie_wykonawcy = new System.Windows.Forms.Button();
+
+            this.Zatwierdz_dodawanie_albumu = new System.Windows.Forms.Button();
+
+            this.Zatwierdz_usuwanie_albumu = new System.Windows.Forms.Button();
+
+            this.Zatwierdz_dodawanie_utworu = new System.Windows.Forms.Button();
+            this.Zatwierdz_usuwanie_utworu = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,7 +73,7 @@
             this.wykonawcy = new System.Windows.Forms.Button();
             this.albumy = new System.Windows.Forms.Button();
             this.konta = new System.Windows.Forms.Button();
-            this.Zatwierdz_usuwanie_konta = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel_albumy.SuspendLayout();
@@ -93,6 +105,15 @@
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Controls.Add(this.Zatwierdz_usuwanie_konta);
             this.panel2.Controls.Add(this.Zatwierdz_dodawanie_konta);
+            this.panel2.Controls.Add(this.Zatwierdz_zmiane_loginu);
+            this.panel2.Controls.Add(this.Zatwierdz_zmiane_hasla);
+            this.panel2.Controls.Add(this.Zatwierdz_dodawanie_wykonawcy);
+            this.panel2.Controls.Add(this.Zatwierdz_usuwanie_wykonawcy);
+            this.panel2.Controls.Add(this.Zatwierdz_dodawanie_albumu);
+            this.panel2.Controls.Add(this.Zatwierdz_usuwanie_albumu);
+            this.panel2.Controls.Add(this.Zatwierdz_dodawanie_utworu);
+            this.panel2.Controls.Add(this.Zatwierdz_usuwanie_utworu);
+
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
@@ -112,6 +133,16 @@
             this.listBox1.Size = new System.Drawing.Size(202, 355);
             this.listBox1.TabIndex = 6;
             // 
+            // Zatwierdz_usuwanie_konta
+            // 
+            this.Zatwierdz_usuwanie_konta.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_usuwanie_konta.Name = "Zatwierdz_usuwanie_konta";
+            this.Zatwierdz_usuwanie_konta.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_usuwanie_konta.TabIndex = 6;
+            this.Zatwierdz_usuwanie_konta.Text = " Zatwierdz";
+            this.Zatwierdz_usuwanie_konta.UseVisualStyleBackColor = true;
+            this.Zatwierdz_usuwanie_konta.Click += new System.EventHandler(this.Zatwierdz_usuwanie_konta_Click);
+            // 
             // Zatwierdz_dodawanie_konta
             // 
             this.Zatwierdz_dodawanie_konta.Location = new System.Drawing.Point(142, 230);
@@ -121,6 +152,86 @@
             this.Zatwierdz_dodawanie_konta.Text = " Zatwierdz";
             this.Zatwierdz_dodawanie_konta.UseVisualStyleBackColor = true;
             this.Zatwierdz_dodawanie_konta.Click += new System.EventHandler(this.Zatwierdz_dodawanie_konta_Click);
+            // 
+            // Zatwierdz_zmiane_loginu
+            // 
+            this.Zatwierdz_zmiane_loginu.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_zmiane_loginu.Name = "Zatwierdz_zmiane_loginu";
+            this.Zatwierdz_zmiane_loginu.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_zmiane_loginu.TabIndex = 6;
+            this.Zatwierdz_zmiane_loginu.Text = " Zatwierdz";
+            this.Zatwierdz_zmiane_loginu.UseVisualStyleBackColor = true;
+            this.Zatwierdz_zmiane_loginu.Click += new System.EventHandler(this.Zatwierdz_zmiane_loginu_Click);
+            // 
+            // Zatwierdz_zmiane_hasla
+            // 
+            this.Zatwierdz_zmiane_hasla.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_zmiane_hasla.Name = "Zatwierdz_zmiane_hasla";
+            this.Zatwierdz_zmiane_hasla.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_zmiane_hasla.TabIndex = 6;
+            this.Zatwierdz_zmiane_hasla.Text = " Zatwierdz";
+            this.Zatwierdz_zmiane_hasla.UseVisualStyleBackColor = true;
+            this.Zatwierdz_zmiane_hasla.Click += new System.EventHandler(this.Zatwierdz_zmiane_hasla_Click);
+            // 
+            // Zatwierdz_dodawanie_wykonawcy
+            // 
+            this.Zatwierdz_dodawanie_wykonawcy.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_dodawanie_wykonawcy.Name = "Zatwierdz_dodawanie_wykonawcy";
+            this.Zatwierdz_dodawanie_wykonawcy.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_dodawanie_wykonawcy.TabIndex = 6;
+            this.Zatwierdz_dodawanie_wykonawcy.Text = " Zatwierdz";
+            this.Zatwierdz_dodawanie_wykonawcy.UseVisualStyleBackColor = true;
+            this.Zatwierdz_dodawanie_wykonawcy.Click += new System.EventHandler(this.Zatwierdz_dodawanie_wykonawcy_Click);
+            // 
+            // Zatwierdz_usuwanie_wykonawcy
+            // 
+            this.Zatwierdz_usuwanie_wykonawcy.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_usuwanie_wykonawcy.Name = "Zatwierdz_usuwanie_wykonawcy";
+            this.Zatwierdz_usuwanie_wykonawcy.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_usuwanie_wykonawcy.TabIndex = 6;
+            this.Zatwierdz_usuwanie_wykonawcy.Text = " Zatwierdz";
+            this.Zatwierdz_usuwanie_wykonawcy.UseVisualStyleBackColor = true;
+            this.Zatwierdz_usuwanie_wykonawcy.Click += new System.EventHandler(this.Zatwierdz_usuniecie_wykonawcy_Click);
+
+            // 
+            // Zatwierdz_dodawanie_albumu
+            // 
+            this.Zatwierdz_dodawanie_albumu.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_dodawanie_albumu.Name = "Zatwierdz_dodawanie_albumu";
+            this.Zatwierdz_dodawanie_albumu.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_dodawanie_albumu.TabIndex = 6;
+            this.Zatwierdz_dodawanie_albumu.Text = " Zatwierdz";
+            this.Zatwierdz_dodawanie_albumu.UseVisualStyleBackColor = true;
+            this.Zatwierdz_dodawanie_albumu.Click += new System.EventHandler(this.Zatwierdz_dodawanie_albumu_Click);
+            // 
+            // Zatwierdz_usuwanie_albumu
+            // 
+            this.Zatwierdz_usuwanie_albumu.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_usuwanie_albumu.Name = "Zatwierdz_usuwanie_albumu";
+            this.Zatwierdz_usuwanie_albumu.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_usuwanie_albumu.TabIndex = 6;
+            this.Zatwierdz_usuwanie_albumu.Text = " Zatwierdz";
+            this.Zatwierdz_usuwanie_albumu.UseVisualStyleBackColor = true;
+            this.Zatwierdz_usuwanie_albumu.Click += new System.EventHandler(this.Zatwierdz_usuwanie_albumu_Click);
+
+            this.Zatwierdz_dodawanie_utworu.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_dodawanie_utworu.Name = "Zatwierdz_dodawanie_utworu";
+            this.Zatwierdz_dodawanie_utworu.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_dodawanie_utworu.TabIndex = 6;
+            this.Zatwierdz_dodawanie_utworu.Text = " Zatwierdz";
+            this.Zatwierdz_dodawanie_utworu.UseVisualStyleBackColor = true;
+            this.Zatwierdz_dodawanie_utworu.Click += new System.EventHandler(this.Zatwierdz_dodawanie_utworu_Click);
+            // 
+            // Zatwierdz_usuwanie_albumu
+            // 
+            this.Zatwierdz_usuwanie_utworu.Location = new System.Drawing.Point(142, 230);
+            this.Zatwierdz_usuwanie_utworu.Name = "Zatwierdz_usuwanie_utworu";
+            this.Zatwierdz_usuwanie_utworu.Size = new System.Drawing.Size(146, 23);
+            this.Zatwierdz_usuwanie_utworu.TabIndex = 6;
+            this.Zatwierdz_usuwanie_utworu.Text = " Zatwierdz";
+            this.Zatwierdz_usuwanie_utworu.UseVisualStyleBackColor = true;
+            this.Zatwierdz_usuwanie_utworu.Click += new System.EventHandler(this.Zatwierdz_usuwanie_utworu_Click);
+
             // 
             // label4
             // 
@@ -404,15 +515,9 @@
             this.konta.UseVisualStyleBackColor = true;
             this.konta.Click += new System.EventHandler(this.konta_Click);
             // 
-            // Zatwierdz_usuwanie_konta
+            // openFileDialog1
             // 
-            this.Zatwierdz_usuwanie_konta.Location = new System.Drawing.Point(142, 230);
-            this.Zatwierdz_usuwanie_konta.Name = "Zatwierdz_usuwanie_konta";
-            this.Zatwierdz_usuwanie_konta.Size = new System.Drawing.Size(146, 23);
-            this.Zatwierdz_usuwanie_konta.TabIndex = 6;
-            this.Zatwierdz_usuwanie_konta.Text = " Zatwierdz";
-            this.Zatwierdz_usuwanie_konta.UseVisualStyleBackColor = true;
-            this.Zatwierdz_usuwanie_konta.Click += new System.EventHandler(this.Zatwierdz_usuwanie_konta_Click);
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Admin
             // 
@@ -474,5 +579,16 @@
         private System.Windows.Forms.Button Zatwierdz_dodawanie_konta;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button Zatwierdz_usuwanie_konta;
+        private System.Windows.Forms.Button Zatwierdz_zmiane_loginu;
+        private System.Windows.Forms.Button Zatwierdz_zmiane_hasla;
+        private System.Windows.Forms.Button Zatwierdz_dodawanie_wykonawcy;
+        private System.Windows.Forms.Button Zatwierdz_usuwanie_wykonawcy;
+        private System.Windows.Forms.Button Zatwierdz_dodawanie_albumu;
+        private System.Windows.Forms.Button Zatwierdz_usuwanie_albumu;
+
+        private System.Windows.Forms.Button Zatwierdz_dodawanie_utworu;
+        private System.Windows.Forms.Button Zatwierdz_usuwanie_utworu;
+
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

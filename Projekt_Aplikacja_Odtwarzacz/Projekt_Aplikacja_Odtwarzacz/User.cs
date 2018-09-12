@@ -81,8 +81,16 @@ namespace Projekt_Aplikacja_Odtwarzacz
 
                 string sname = (string)dbr1["album_pic_path"]; ; //name is coming from database
                 Console.WriteLine(sname);
-                bmp = new Bitmap(@sname);
-                pictureBox1.Image = bmp;
+                try
+                {
+                    bmp = new Bitmap(@sname);
+                    pictureBox1.Image = bmp;
+                }
+                catch
+                {
+                    Console.WriteLine("Blad ladowania obrazka");
+                }
+                
 
             }
             dbr1.Close();
